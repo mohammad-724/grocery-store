@@ -1,0 +1,378 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f7f8f6;
+color: #222;
+line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+```
+padding: 15px 50px;
+
+background-color: white;
+border-bottom: 1px solid #ddd;
+```
+
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+color: #2e7d32;
+}
+
+.navbar nav {
+display: flex;
+gap: 25px;
+}
+
+.navbar nav a {
+text-decoration: none;
+color: #333;
+}
+
+.navbar nav a:hover {
+color: #2e7d32;
+}
+
+.login-btn {
+padding: 9px 18px;
+border: none;
+border-radius: 5px;
+
+```
+background-color: #2e7d32;
+color: white;
+
+cursor: pointer;
+```
+
+}
+
+.login-btn:hover {
+background-color: #256628;
+}
+
+/* Hero Section */
+.hero {
+padding: 90px 20px;
+text-align: center;
+
+```
+background-color: #e8f5e9;
+```
+
+}
+
+.hero-content {
+max-width: 750px;
+margin: auto;
+}
+
+.hero h1 {
+font-size: 42px;
+margin-bottom: 20px;
+color: #1b5e20;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 25px;
+color: #555;
+}
+
+.shop-btn {
+padding: 12px 25px;
+
+```
+border: none;
+border-radius: 6px;
+
+background-color: #2e7d32;
+color: white;
+
+font-size: 16px;
+cursor: pointer;
+```
+
+}
+
+.shop-btn:hover {
+background-color: #256628;
+}
+
+/* Common Section */
+section {
+padding: 50px 60px;
+}
+
+section h2 {
+text-align: center;
+margin-bottom: 30px;
+color: #1b5e20;
+}
+
+/* Location */
+.location-section {
+text-align: center;
+background-color: white;
+}
+
+.location-section select {
+width: 250px;
+padding: 12px;
+
+```
+border: 1px solid #ccc;
+border-radius: 5px;
+
+font-size: 15px;
+```
+
+}
+
+.delivery-message {
+margin-top: 15px;
+color: #777;
+}
+
+/* Categories */
+.category-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+
+```
+max-width: 1100px;
+margin: auto;
+```
+
+}
+
+.category-card {
+padding: 30px 20px;
+
+```
+text-align: center;
+
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+
+transition: 0.3s;
+```
+
+}
+
+.category-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Products */
+.products {
+background-color: #f7f8f6;
+}
+
+.product-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+
+```
+max-width: 1100px;
+margin: auto;
+```
+
+}
+
+.product-card {
+padding: 20px;
+
+```
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+
+text-align: center;
+
+transition: 0.3s;
+```
+
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.product-image {
+height: 150px;
+
+```
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-bottom: 15px;
+
+background-color: #eeeeee;
+border-radius: 6px;
+
+color: #777;
+```
+
+}
+
+.product-card h3 {
+margin-bottom: 8px;
+}
+
+.product-card p {
+margin-bottom: 15px;
+color: #555;
+}
+
+.product-card button,
+.recipe-card button {
+padding: 9px 18px;
+
+```
+border: none;
+border-radius: 5px;
+
+background-color: #2e7d32;
+color: white;
+
+cursor: pointer;
+```
+
+}
+
+.product-card button:hover,
+.recipe-card button:hover {
+background-color: #256628;
+}
+
+/* Recipes */
+.recipes {
+background-color: white;
+}
+
+.recipe-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+
+```
+max-width: 900px;
+margin: auto;
+```
+
+}
+
+.recipe-card {
+padding: 30px 20px;
+
+```
+text-align: center;
+
+border: 1px solid #ddd;
+border-radius: 8px;
+
+background-color: #fafafa;
+```
+
+}
+
+.recipe-card h3 {
+margin-bottom: 10px;
+}
+
+.recipe-card p {
+margin-bottom: 20px;
+color: #666;
+}
+
+/* Footer */
+.footer {
+padding: 30px;
+
+```
+text-align: center;
+
+background-color: #1b5e20;
+color: white;
+```
+
+}
+
+.footer p {
+margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
+```
+.navbar {
+    padding: 15px 20px;
+}
+
+.navbar nav {
+    gap: 12px;
+}
+
+.category-container,
+.product-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.recipe-container {
+    grid-template-columns: 1fr;
+}
+```
+
+}
+
+@media (max-width: 600px) {
+
+```
+.navbar {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.category-container,
+.product-container {
+    grid-template-columns: 1fr;
+}
+```
+
+}
