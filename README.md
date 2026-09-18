@@ -1,68 +1,76 @@
 # Fresh Grocery Store
 
-A simple and clean grocery store website frontend built using **HTML and CSS**.
-
-This is the initial frontend prototype of a grocery store website. It provides a basic structure for browsing grocery categories, viewing products, selecting a delivery location, and exploring recipe ideas.
+A clean and responsive **grocery store frontend** built with HTML5 and CSS3. This project provides a simple foundation for an online grocery shopping platform, with a focus on clear navigation, organized product presentation, and user-friendly design.
 
 ## Features
 
-* Clean and simple user interface
-* Navigation bar
-* Grocery store hero section
-* Delivery location selection
-* Grocery categories
-* Popular products section
-* Recipe section
-* Add to Cart buttons
-* Login button
-* Responsive layout for desktop and mobile
-* Basic hover effects and transitions
+* Clean and responsive grocery store interface
+* Navigation bar with essential sections
+* Hero section with shopping call-to-action
+* Delivery location selection with three predefined locations
+* Product categories
+* Popular grocery products with pricing
+* Recipe section for grouped grocery ingredients
+* Add to Cart interface
+* Login interface
+* Responsive layout for different screen sizes
+* Hover effects and smooth UI transitions
 
 ## Technologies Used
 
-* HTML5
-* CSS3
+* **HTML5** – Page structure and content
+* **CSS3** – Styling, layout, responsiveness, and animations
 
 ## Project Structure
 
 ```text
 grocery-store/
-│
 ├── index.html
 ├── style.css
 └── README.md
 ```
 
-## How to Run
+## Getting Started
 
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
+### 1. Clone the Repository
 
-You can also use the **Live Server** extension in VS Code to run the project locally.
+```bash
+git clone <repository-url>
+cd grocery-store
+```
 
-## Current Status
+### 2. Run the Project
 
-This is currently a **static frontend prototype**.
+Open `index.html` directly in a web browser.
 
-The following features are not functional yet:
+For development, the project can also be opened using the **Live Server** extension in VS Code.
 
-* User registration and login
-* Database
-* Product management
-* Shopping cart functionality
-* Order placement
-* Payment
+## Current Scope
+
+This version is a **static frontend prototype**. It currently focuses on the user interface and layout.
+
+Backend functionality such as:
+
+* User registration and authentication
+* MySQL database integration
+* Product and inventory management
+* Functional cart and checkout
+* Order management
 * Admin portal
 * Delivery availability management
 * Multilingual support
+* Online payments
 
-These features will be added in future versions of the project.
+will be implemented in future development.
 
 ## Future Development
 
-The frontend will later be integrated with a Python Flask backend and MySQL database to create a complete grocery ordering system.
+The frontend will be extended into a complete grocery delivery platform using **Python Flask and MySQL**, including customer accounts, location-based delivery management, inventory control, recipes, orders, and an administrative dashboard.
 
 ## Author
 
-Mohammad Azmath Ali
+**Mohammad Azmath Ali**
+
+---
+
+*This project is developed as a foundation for a complete grocery ordering and delivery management system.*
