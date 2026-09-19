@@ -1,76 +1,80 @@
-# Fresh Grocery Store
+Fresh Grocery Store
 
-A clean and responsive **grocery store frontend** built with HTML5 and CSS3. This project provides a simple foundation for an online grocery shopping platform, with a focus on clear navigation, organized product presentation, and user-friendly design.
+A clean, responsive, and interactive grocery store frontend built using HTML5, CSS3, and JavaScript. The project provides a simple foundation for an online grocery shopping platform with organized product sections, delivery-location selection, recipe information, and basic cart interactions.
 
-## Features
-
-* Clean and responsive grocery store interface
-* Navigation bar with essential sections
-* Hero section with shopping call-to-action
-* Delivery location selection with three predefined locations
-* Product categories
-* Popular grocery products with pricing
-* Recipe section for grouped grocery ingredients
-* Add to Cart interface
-* Login interface
-* Responsive layout for different screen sizes
-* Hover effects and smooth UI transitions
-
-## Technologies Used
-
-* **HTML5** – Page structure and content
-* **CSS3** – Styling, layout, responsiveness, and animations
-
-## Project Structure
-
-```text
+Features
+Clean and responsive user interface
+Navigation bar with essential sections
+Hero section with shopping call-to-action
+Delivery location selection with three predefined locations
+Delivery availability message based on selected location
+Grocery product categories
+Popular products with pricing
+Add to Cart functionality
+Cart item count using browser local storage
+Recipe section with ingredient information
+Recipe popup interface
+Login interaction placeholder
+Smooth scrolling navigation
+Hover effects and UI transitions
+Mobile-responsive layout
+Technologies Used
+HTML5 – Page structure and content
+CSS3 – Styling, responsive layout, hover effects, and transitions
+JavaScript – Frontend interactions and basic cart functionality
+LocalStorage – Temporary browser-side cart count storage
+Project Structure
 grocery-store/
 ├── index.html
 ├── style.css
+├── script.js
 └── README.md
-```
-
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
+Getting Started
+1. Clone the Repository
 git clone <repository-url>
 cd grocery-store
-```
+2. Run the Project
 
-### 2. Run the Project
+Open index.html directly in a web browser.
 
-Open `index.html` directly in a web browser.
+For development, you can use the Live Server extension in VS Code.
 
-For development, the project can also be opened using the **Live Server** extension in VS Code.
+Current Functionality
 
-## Current Scope
+The current version is a frontend prototype and includes:
 
-This version is a **static frontend prototype**. It currently focuses on the user interface and layout.
+Product browsing interface
+Delivery location selection
+Delivery availability indication
+Add-to-cart interaction
+Cart count tracking
+Recipe ingredient popup
+Smooth navigation
+Responsive design
 
-Backend functionality such as:
+The current cart and delivery availability logic are implemented using JavaScript and browser-side storage/demo data.
 
-* User registration and authentication
-* MySQL database integration
-* Product and inventory management
-* Functional cart and checkout
-* Order management
-* Admin portal
-* Delivery availability management
-* Multilingual support
-* Online payments
+Future Development
 
-will be implemented in future development.
+The frontend will be extended into a complete grocery ordering and delivery management platform using Python Flask and MySQL.
 
-## Future Development
+Planned functionality includes:
 
-The frontend will be extended into a complete grocery delivery platform using **Python Flask and MySQL**, including customer accounts, location-based delivery management, inventory control, recipes, orders, and an administrative dashboard.
+Customer registration and login
+MySQL database integration
+Product and inventory management
+Location-based delivery management
+Functional shopping cart
+Customer addresses
+Checkout and order placement
+Order tracking and status management
+Admin dashboard
+Product availability management
+Recipe and ingredient management
+English, Hindi, and Telugu language support
+Payment integration
+Author
 
-## Author
+Mohammad Azmath Ali
 
-**Mohammad Azmath Ali**
-
----
-
-*This project is developed as a foundation for a complete grocery ordering and delivery management system.*
+This project serves as the frontend foundation for a complete grocery ordering and delivery management system.
